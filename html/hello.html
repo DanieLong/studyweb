@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>js学习</title>
+    <style>
+        div {
+            background-color: coral;
+            border: 1px solid;
+            padding: 50px;
+        }
+    </style>
 </head>
 <body>
 
-<h1 >人力资源管理后台</h1>
+<h1>人力资源管理后台</h1>
 <p id="demo1"></p>
 
 
@@ -23,7 +30,6 @@
 <a href="javascript:void(0);">点我没有反应的!</a>
 <a href="#pos">点我定位到指定位置!</a>
 <br><br><br>
-<p id="pos">尾部定位点</p>
 
 <p>函数可以自动调用：</p>
 <p id="demo3"></p>
@@ -34,6 +40,26 @@
 <p>局部变量计数。</p>
 <button type="button" onclick="myFunction()">计数!</button>
 <p id="demo5">0</p>
-<script src="../assets/js/my.js"></script>
+
+
+<p>实例使用 addEventListener() 方法在同一个按钮中添加多个事件。</p>
+<button id="myBtn">点我</button>
+<p id="demo6"></p>
+
+<p>实例演示了在添加不同事件监听时，冒泡与捕获的不同。</p>
+<div id="myDiv">
+    <p id="myP">点击段落，我是冒泡。</p>
+</div>
+<br>
+<div id="myDiv2">
+    <p id="myP2">点击段落，我是捕获。 </p>
+</div>
+
+<p>在页面显示一个时钟</p>
+<p id="demo7" onclick="myStopFunction()"></p>
+
+<p id="pos">尾部定位点</p>
+<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/myjs.js"></script>
 </body>
 </html>
